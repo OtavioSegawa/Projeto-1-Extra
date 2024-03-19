@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #828282;
+}
+
+#main {
+  width: 626px;
+  height: 487px;
+  margin: 64px auto 63px;
+}
+
+#main img {
+  margin-bottom: 27px;
+}
+
+#main h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  color: #3F3D56;
+  margin-bottom: 27px;
+}
+
+#main h1 strong {
+  color: #EE24FF;
+}
+
+#main p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 27px;
+}
+
+#main p strong {
+  color: #3F3D56;
+}
+
+#footer {
+  margin: 63px auto 0px;
+  width: 1024px;
+  height: 176px;
+}
+
+#line {
+  width: 391px;
+  margin: 0px auto 16px;
+  border: 1px solid #ECEFF2;
+}
+
+#footer p {
+  position: fixed;
+  bottom: 0px;
+  background-image: url('images/Wave.jpg');
+}
+
+#footer a {
+  font-weight: bold;
+  color: #3F3D56;
+  text-decoration: none;
+}
+
+#footer a + a{
+  margin-left: 42px;
+}
+
+#footer img {
+  margin-top: 42px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+}
